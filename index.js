@@ -23,7 +23,7 @@ bot.on("message", message => {
         }
         else if(message.content === "!help"){
             message.author.send("Voiçi la liste des fonctionnalités du bot (n'hésitez pas à soumettre vos idées à CrashBomb) :\n"+
-                                "\t - !ah : Dites bonjour à Denis !" +
+                                "\t - !ah : Dites bonjour à Denis !\n" +
                                 "\t - !bonjour : Recevez un message rempli d'amour !\n" +
                                 "\t - Ecrivez `\"waew\" dans votre message pour faire apparaître notre mascotte officielle !\n");
         }
