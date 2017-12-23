@@ -1,0 +1,30 @@
+const Discord = require('discord.js');
+const bot  = new Discord.Client();
+
+const PREFIX = "!";
+
+
+process.on('unhandledRejection', up => { throw up })
+
+bot.on("ready", function(){
+    console.log("I'm Ready To Send LOOOOVE !");
+});
+
+bot.on("message", message => {
+    if(message.content.includes("waew")){
+        message.channel.send("https://media.giphy.com/media/12xRMv14BGASAg/giphy.gif");
+    }
+    if(message.content[0] === PREFIX){
+        if(message.content === "!bonjour"){
+            message.reply(" de l'AMOUUR <3");
+        }
+        else if(message.content === "!help"){
+            message.author.send("Voiçi la liste des fonctionnalités du bot (n'hésitez pas à soumettre vos idées à CrashBomb) :\n"+
+                                "\t - !bonjour : Recevez un message rempli d'amour !\n" +
+                                "\t - Ecrivez `\"waew\" dans votre message pour faire apparaître notre mascotte officielle !");
+        }
+    }
+});
+
+
+bot.login('Mzk0MTUzNzU3NTg1NDQwNzc5.DSAQ5Q.DLa03njq4B9Xlx6HoUFhvzOcyds'); //Token
