@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+﻿const Discord = require('discord.js');
 const txtomp3 = require("text-to-mp3");
 const ytdl = require('ytdl-core');
 const fs = require('fs');
@@ -76,4 +76,4 @@ bot.on("message", message => {
 });
 
 
-bot.login('Mzk0MjcxNzc4Mzc5Mzk5MjAx.DSB5uA.ASoXHA_HJhPb6JHlKLZ-xiC_JcM'); //Token
+bot.login('Mzk0MTUzNzU3NTg1NDQwNzc5.DSCqGw.H3AMAfib8Mhap8kAFMPoNhBCVuc'); //Token
