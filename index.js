@@ -32,4 +32,4 @@ bot.on("message", message => {
 });
 
 
-bot.login('Mzk0MTUzNzU3NTg1NDQwNzc5.DSAQ5Q.DLa03njq4B9Xlx6HoUFhvzOcyds'); //Token
+bot.login('Mzk0MTUzNzU3NTg1NDQwNzc5.DSQAmA._0cDXvmNeTj2KAZukA9U8b7o3WI'); //Token
