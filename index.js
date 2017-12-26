@@ -1,9 +1,5 @@
 const Discord = require('discord.js');
 
-const embed = new Twitch.Embed('twitch-embed', {
-    channel: 'monstercat'
-  });
-  
 const bot  = new Discord.Client();
 
 const PREFIX = "!";
