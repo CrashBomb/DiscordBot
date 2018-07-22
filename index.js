@@ -1,9 +1,6 @@
 const Discord = require('discord.js');
-
 const bot  = new Discord.Client();
-
 const PREFIX = "!";
-
 
 process.on('unhandledRejection', up => { throw up })
 
@@ -13,7 +10,7 @@ bot.on("ready", function(){
 
 bot.on("message", message => {
     if(message.content.includes("waew")){
-        message.channel.send("https://media.giphy.com/media/12xRMv14BGASAg/giphy.gif");
+        message.channel.send("https://media.giphy.com/media/7T2uHf8gwmMvEJkd0n/giphy.gif");
     }
     if(message.content[0] === PREFIX){
         if(message.content === "!bonjour"){
